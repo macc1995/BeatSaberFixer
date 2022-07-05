@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1972
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSFixer", "BSFixer\BSFixer.csproj", "{64682F22-C05F-4886-9DE6-84683F07728E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSFixerTests", "BSFixerTests\BSFixerTests.csproj", "{E9867976-DB9D-4845-B60F-BE66D1F16025}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{64682F22-C05F-4886-9DE6-84683F07728E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64682F22-C05F-4886-9DE6-84683F07728E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64682F22-C05F-4886-9DE6-84683F07728E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9867976-DB9D-4845-B60F-BE66D1F16025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9867976-DB9D-4845-B60F-BE66D1F16025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9867976-DB9D-4845-B60F-BE66D1F16025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9867976-DB9D-4845-B60F-BE66D1F16025}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
