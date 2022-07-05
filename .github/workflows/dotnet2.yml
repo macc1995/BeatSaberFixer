@@ -35,4 +35,11 @@ jobs:
     # A file, directory or wildcard pattern that describes what to upload
         path: BSFixer\bin\Release\BSFixer.exe
       
-      
+    - name: Create Release
+  # You may pin to the exact commit or the version.
+  # uses: ncipollo/release-action@58ae73b360456532aafd58ee170c045abbeaee37
+      uses: ncipollo/release-action@v1.10.0
+      with:
+        artifact: result
+        
+    
