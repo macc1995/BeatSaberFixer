@@ -33,6 +33,6 @@ jobs:
     # Artifact name
         name: result
     # A file, directory or wildcard pattern that describes what to upload
-        path: /*
+        path: BSFixer\bin\Release\BSFixer.exe
       
       
