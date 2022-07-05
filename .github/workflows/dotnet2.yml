@@ -26,3 +26,7 @@ jobs:
  
     - name: Build
       run: msbuild BSFixer.sln /p:Configuration=Release /p:DeployOnBuild=true /p:PublishProfile=FolderProfile
+      
+    - name: Create Release
+      uses: ncipollo/release-action@v1.10.0
+      
